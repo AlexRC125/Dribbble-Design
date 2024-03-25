@@ -28,7 +28,7 @@
     border: none;
     font-family: inherit;
     font-weight: 500;
-    color: black;
+    color: white;
     background-color: #8e7bff;
     margin-top: 15px;
     margin-left: -20%;
@@ -66,7 +66,7 @@
     opacity: 0;
    }
 
-   p{
+   .p1{
     padding-top: 30px;
    }
    .img2{
@@ -78,3 +78,75 @@ margin-right: 20px;
         margin-top: 150px;
         margin-left: 150px;
       }
+
+      .card-body{
+        background-color: #8e7bff;
+        border-radius: 25px;
+        color: white;
+      }
+
+      .img3{
+        height: 60px;
+        margin-right: 300px;
+        margin-bottom: 40px;
+      }
+      h5{
+       text-align: start;
+      }
+
+      .small{
+        font-size: 14px;
+      }
+       .card-title{
+        font-size: 29px;
+       }
+
+       .btn2{
+        position: relative;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5em 2.5em;
+    display: inline-block;
+    border-radius: 4em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: #80ea99;
+    margin-top: 15px;
+    margin-left: -20%;
+       }
+
+       .btn2:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+       }
+       
+       .bt2n:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       }
+       
+       .btn2::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+       }
+       
+       .btn2::after {
+        background-color: #8e7bff;
+       }
+       
+       .btn2:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+       }
